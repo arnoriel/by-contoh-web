@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>byContoh.</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="logo.png" alt="byContoh Logo" class="logo">
+                <h1>byContoh.</h1>
+            </div>
+            <nav>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="nav-menu">
+                    <li data-aos="fade-in" data-aos-delay="100"><a href="#services">Services</a></li>
+                    <li data-aos="fade-in" data-aos-delay="200"><a href="#portfolio">Portfolio</a></li>
+                    <li data-aos="fade-in" data-aos-delay="300"><a href="#testimonials">Testimonials</a></li>
+                    <li data-aos="fade-in" data-aos-delay="400"><a href="#about">About</a></li>
+                    <li data-aos="fade-in" data-aos-delay="500"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2 class="fade-in">Innovative IT Solutions for Your Future</h2>
+            <p class="fade-in">Discover top-tier website and mobile app development, powered by Next.js technology.</p>
+            <a href="#services" class="cta-button fade-in">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg" alt="Website Design">
+                    <h3>Website Maker</h3>
+                    <p>Create stunning, responsive websites tailored to your brand with modern design and seamless functionality.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Mobile App">
+                    <h3>Mobile Application Maker</h3>
+                    <p>Build powerful, user-friendly mobile apps for iOS and Android, designed to engage and perform.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="IT Education">
+                    <h3>School or College IT Tasks</h3>
+                    <p>Expert assistance for IT projects, coding assignments, and academic tasks to help you excel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Portfolio</h2>
+            <p data-aos="fade-up" data-aos-delay="100" class="portfolio-intro">Explore some of our standout projects, showcasing our expertise in web and mobile app development.</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="/wedding.jpg" alt="Digital Wedding Invitation">
+                        <div class="portfolio-overlay">
+                            <h3>Digital Wedding Invitation</h3>
+                            <p>A beautifully designed, responsive website for wedding invitations, tailored to client specifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="portfolio-image">
+                        <img src="/arnoco.jpg" alt="Arnoco Clothes App">
+                        <div class="portfolio-overlay">
+                            <h3>Arnoco Clothes App</h3>
+                            <p>A mobile app for seamless clothing retail, enhancing user experience with intuitive design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 data-aos="fade-up">What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="100">
+                    <p>"seneng situsnya bagus sesuai request, adminnya ramah trus ngerti bgt semua penjelasan aku. makasi banyak yaa 🤗"</p>
+                    <h4>Arini, Owner Digital Wedding Invitation</h4>
+                    <p>Service: Website Maker</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="200">
+                    <p>"kerenn & fast bgt"</p>
+                    <h4>Rinaldi, Mahasiswa</h4>
+                    <p>Service: IT Tutor</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="300">
+                    <p>"dengan layanan Mobile Apps dari byContoh, usahaku berdagang pakaian jadi lancar lewat Arnoco App"</p>
+                    <h4>Azril, owner Arnoco Clothes</h4>
+                    <p>Service: Mobile Application Maker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 data-aos="fade-up">About Us</h2>
+            <p data-aos="fade-up" data-aos-delay="100">At byContoh, we specialize in delivering high-quality IT solutions. Our team combines creativity and technology, utilizing tools like Grok to bring your ideas to life. Whether it's a website, mobile app, or academic project, we're here to make it happen.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 data-aos="fade-up">Contact Us</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Ready to start your next project? Reach out to us today!</p>
+            <a href="mailto:azrilluthfimulyadi@gmail.com" class="cta-button" data-aos="fade-up" data-aos-delay="200">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 byContoh. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/6285797009915" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="floating-card">
+        <div class="powered-by">Powered By:</div>
+        <div class="brand">byContoh.</div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        function toggleMenu() {
+            const menu = document.getElementById('nav-menu');
+            menu.classList.toggle('active');
+            if (menu.classList.contains('active')) {
+                AOS.refresh();
+            }
+        }
+    </script>
+</body>
+</html>
